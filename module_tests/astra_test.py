@@ -1,0 +1,3 @@
+import astra
+
+astra.test()

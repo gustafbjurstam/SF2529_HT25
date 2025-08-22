@@ -1,0 +1,3 @@
+import odl
+
+odl.test()
