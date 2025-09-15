@@ -7,7 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.3",
-    "odl[testing]>=0.8.2",
+    "odl[testing]>=0.8.2, <0.9",
     "pyqt6>=6.9.0",
     "scipy>=1.15.3",
     "numpy>=2.1, <2.2",
