@@ -14,6 +14,10 @@ The preferred way to set up the Python environment is to use [uv](https://docs.a
 
 If you prefer to build the environment yourself, the package requirements are listed in pyproject.toml.
 
+# Labs
+
+The labs are in the ``labs`` folder, and should be possible to follow with the help of the linked ODL documentation. For lab 2 you must add an additional package by running ``uv sync --group gpu``. For labs 3 and 4 you need GPU acceleration, unless you restrict the problem to 2D-tomography.
+
 # GPU acceleration
 
 The first two labs can be completed without access to an Nvidia GPU. However, labs 3 and 4 involve 3D-tomography, which ODL only allows when GPU acceleration is available. In addition, to make use of GPU resources, the optional dependencies in pyproject.toml must be installed. If you use uv this simply involves running ``uv sync --group gpu``.
