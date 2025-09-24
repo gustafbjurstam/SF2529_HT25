@@ -1431,7 +1431,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "numpy", specifier = ">=2.1,<2.2" },
-    { name = "odl", extras = ["testing"], specifier = ">=0.8.2" },
+    { name = "odl", extras = ["testing"], specifier = ">=0.8.2,<0.9" },
     { name = "pyqt6", specifier = ">=6.9.0" },
     { name = "scipy", specifier = ">=1.15.3" },
 ]
