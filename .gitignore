@@ -209,3 +209,4 @@ __marimo__/
 
 # Files that are too large
 *noisy_sin*
+*.png*
